@@ -1,0 +1,241 @@
+@media screen and (max-width:600px) {
+    .cardProyecto{
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+*{
+    padding: 0ss;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+/*El header se pone de negro*/
+header {
+    background-color: rgb(12, 12, 12);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);
+    position: sticky;
+}
+/*Alinea el nav */
+header nav .left a{
+    color: white;
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all .2s ease;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    border: 1px solid;
+    
+}
+th, td{
+    border: 1px solid;
+    border-spacing: 0;
+    width: 25%;
+}
+
+header nav .left a:hover{
+    color: rgb(29, 221, 189);
+}
+
+header nav{
+    padding: 3rem 2rem;
+}
+
+header nav .logo{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.contenedor{
+    max-width: 1152px;
+    padding: 5 15px;
+    margin: 0 auto;
+}
+
+/*
+.cardProyecto{
+    display: flexbox;
+    grid-template-columns: repeat(200px, 200px, 200px);
+    grid-auto-rows: 3;
+    grid-gap: 1rem;
+    padding: 2rem;
+    
+}*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    background-color:rgb(127, 225, 208);
+}
+.column{
+    float: left;
+    width: 32%;
+    padding: 0 10px;
+}
+
+.hero{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.hero .left img{
+    width: 600px;
+    padding-left:10rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.hero .right{
+    color: black;
+    margin-top: -7rem;
+}
+
+.hero .right h6{
+    font-size: 1.6rem;
+    color: rgb(29, 221, 189);
+    margin-bottom: 0.5rem;
+}
+
+.hero .right h1{
+    font-size: 4rem;
+    font-weight: 100;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+.hero .right h1 span{
+    color: rgb(29, 221, 189);
+}
+
+.hero .right p{
+    line-height: 1.9;
+    margin-bottom: 2rem;
+}
+
+.flex{
+    display: flex;
+}
+
+.items-centre{
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: right;
+}
+
+.btn{
+    padding: 0.6rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .2s ease;
+}
+
+.btn-primario{
+    background-color: rgb(29, 221, 189);
+    color: rgb(0, 59, 50) ;
+    margin-top: -15rem;
+}
+
+.btn-primario:hover{
+    background: transparent;
+    border-color: rgb(29, 221, 189);
+    color: rgb(29, 221, 189);
+}
+
+.flex-1{
+    flex: 1;
+}
+
+.btn-secundario{
+    background: transparent;
+    color: rgb(0, 59, 50);
+    border-color: rgb(29, 221, 189);
+}
+
+.btn-secundario:hover{
+    background: rgb(29, 221, 189);
+    color: rgb(0, 59, 50);
+}
+
+section{
+    padding: 6rem;
+}
+
+section.acercademi h1{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+
+}
+
+section.acercademi h1 span{
+    color: rgb(29, 221, 189);
+}
+
+section.acercademi h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+section.acercademi p{
+    font-family: 'Lato',sans-serif;
+    color: rgb(0, 59, 50);
+    line-height: 1.9rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+}
+
+section.acercademi .redesSociales{
+    display: flex;
+}
+
+section.acercademi .redesSociales a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    margin-right: 0.8rem;
+}
+
+section.acercademi .redesSociales a:hover{
+    background: rgb(29, 221, 189);
+}
+
+section.experiencia{
+    background: rgb(12, 12, 12);
+    margin: 5rem;
+}
+.experiencia-head{
+    color: black;
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 0.5rem;
+    color: rgb(29, 221, 189);
+}
+
+formulario2{
+    justify-content: center;
+    padding-left: 10rem;
+}

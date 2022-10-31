@@ -1,21 +1,36 @@
-.menuitem{
+/*.menuitem{
+    width: 150px;
+    float: left;
+    background: none;
+    color: #ffffff;
+    list-style-type: none;
+    margin: 4px;
+    padding: 2px;
+    text-align: right;
+    cursor: pointer;
+}
+
+*{
+    
+
+    background: linear-gradient(to right, #00697f , #e8940d);
+    background-repeat: repeat;
+}
+
+
+.socialNetwork{
     width: 165px;
     float: left;
-    background-color: #555555;
-    color: #ffffff;
     list-style-type: none;
     margin: 4px;
     padding: 2px;
     text-align: center;
     cursor: pointer;
+    background: none;
 }
-.bottom{
-    width: 165px;
-    float: left;
-    color: #ffffff;
-    list-style-type: none;
-    margin: 4px;
-    padding: 2px;
-    text-align: center;
-    cursor: pointer;
+
+.imgitem{
+    background: none;
 }
+
+*/
